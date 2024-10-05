@@ -1,38 +1,79 @@
+body {
+  background-color: #e9ecef; /* Light gray background */
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Main App Styles */
 .App {
-  text-align: center;
+  max-width: 800px; /* Restrict width for readability */
+  margin: 50px auto; /* Center the container */
+  background: #ffffff; /* White background for the resume */
+  padding: 20px 30px; /* Padding for spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Header Styles */
+header {
+  border-bottom: 2px solid #007bff; /* Blue underline */
+  padding-bottom: 15px; /* Padding for header */
+  margin-bottom: 20px; /* Space below header */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header h1 {
+  font-size: 2.8em; /* Large font size for the name */
+  color: #343a40; /* Dark color for contrast */
+  margin: 0; /* Remove margin */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header p {
+  margin: 5px 0; /* Space between paragraphs */
+  color: #6c757d; /* Gray color for info */
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Horizontal Rule Style */
+hr {
+  border: none; /* Remove default border */
+  border-top: 1px solid #dee2e6; /* Light border color */
+  margin: 20px 0; /* Margin for spacing */
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 20px; /* Space between sections */
+}
+
+section h2 {
+  font-size: 2em; /* Section title font size */
+  color: #007bff; /* Blue color for section titles */
+  margin-bottom: 10px; /* Space below section title */
+}
+
+ul {
+  list-style: none; /* Remove default list style */
+  padding: 0; /* Remove padding */
+}
+
+li {
+  margin-bottom: 15px; /* Space between list items */
+}
+
+h3 {
+  font-size: 1.5em; /* Subsection title font size */
+  color: #343a40; /* Dark color for subsection titles */
+}
+
+p {
+  margin: 5px 0; /* Space between paragraphs */
+  color: #495057; /* Dark gray for content text */
 }
